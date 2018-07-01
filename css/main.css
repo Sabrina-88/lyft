@@ -1,5 +1,9 @@
 body {
 	font-family: 'Montserrat', sans-serif;
+	background-image: url("../assets/images/hero.gif");
+	background-repeat: no-repeat;
+	background-size: 100% 626px;
+	background-position: top;
 }
 * {
 	padding: 0;
@@ -7,16 +11,16 @@ body {
 }
 header {
 	width: 100%;
-	height: 902px;
+	/*height: 902px;*/
 	overflow: hidden;
 }
 #logo-principal {
-	background-image: url("../assets/images/hero.gif");
+/*background-image: url("../assets/images/hero.gif");
 	background-repeat: no-repeat;
 	background-size: 100%;
 	width: 100%;
 	height: 562px;
-	justify-content: center;
+	justify-content: center;*/
 }
 #logo {
 	width: 238px;
@@ -52,72 +56,82 @@ a {
 	color: white;
 	font-size: 20px;
 }
+section {
+	display: flex;
+	justify-content: flex-end;
+}
 .boxWhite {
-	width: 560px;
+	width: 543px;
 	height: 425px;
 	background-color: #fff;
-	display:flex;
-	align-items:center;
-	justify-content:center;
-	flex-direction:column;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
 }
-#textBox{
+#textBox {
 	width: 428px;
-	height: 330px;
-	background-color:green;
-	    display: flex;
-    align-items: end;
-    justify-content: space-around;
-    flex-direction: column;
+	height: 355px;
+	display: flex;
+	align-items: end;
+	justify-content: space-around;
+	flex-direction: column;
 	font-family: 'Montserrat', sans-serif;
-
-	}
+}
 h1 {
 	color: #352384;
-	      width: 278px;
-    font-size: 40px;
-    text-transform: uppercase;	
-	line-height:43px;
-    letter-spacing: -1px;
+	width: 278px;
+	font-size: 42px;
+	text-transform: uppercase;
+	line-height: 41px;
+	letter-spacing: -1px;
+	margin-top: 15px;
 }
-h4{
+h4 {
 	color: #352384;
 	width: 265px;
-    font-size: 16px;
-    text-transform: uppercase;
+	font-size: 16px;
+	text-transform: uppercase;
 	font-family: 'Montserrat', sans-serif;
-	margin-top: -17px;
-    letter-spacing: -2px;
-		}
-input{
-	width: 428px;
-	border:none;
+	letter-spacing: -2px;
+}
+form {
+	height: 120px
+}
+input {
+	width: 438px;
+	border: none;
 	border-bottom:1px solid #352384;
-	background-color:transparent;
+	background-color: transparent;
 	color: #728099;
-	font-size:14px;
+	font-size: 14px;
 	font-family: 'Montserrat', sans-serif;
 	height: 32px;
-	}
-	#btnBecome{
-		width: 168px;
-   height: 50px;
-		background-color:#FF00BF;
-		color: #fff;
-		font-size:18px;
-		border: 1px solid #FF00BF;
-		border-radius:8px;
-		}
-		
-		#btnSignUp{
-			width: 168px;
-   height: 50px;
-   color: #728099;
-		font-size:16px;
-		text-decoration:underline;}
-		
-		.small{
-			width: 308px;
-	height: 20px;
-			color: #728099;
-		font-size:12px;}
+}
+#btnForm {
+	margin-top: 35px;
+}
+#btnBecome {
+	width: 168px;
+	height: 50px;
+	background-color:#FF00BF;
+	color: #fff;
+	font-size: 18px;
+	border:1px solid #FF00BF;
+	border-radius: 8px;
+}
+#btnSignUp {
+	width: 168px;
+	height: 50px;
+	color: #728099;
+	font-size: 16px;
+	text-decoration: underline;
+	background-color:transparent;
+	border:none;
+}
+.small {
+	width: 420px;
+	height: 12px;
+	color: #728099;
+	font-size: 10px;
+}
