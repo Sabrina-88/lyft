@@ -34,10 +34,8 @@ header {
 }
 #firstList {
 	width: 392px;
-	/*height: 100px;*/
 	list-style-type: none;
 	display: flex;
-	/*flex-direction: row;*/
 	align-items: center;
 	justify-content: space-around;
 }
@@ -57,7 +55,6 @@ section {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	/*flex-direction: column;*/
 }
 #textBox {
 	width: 428px;
@@ -103,8 +100,9 @@ input {
 	padding: 10px 16px;
 	color: #fff;
 }
-.btn-menu a:hover{
-	color:#white;}
+.btn-menu a:hover {
+	color: #white;
+}
 .btn-menu:last-child {
 	border: 1px #fff solid;
 }
@@ -156,7 +154,6 @@ input {
 	height: 438px;
 	display: flex;
 	flex-direction: column;
-	/*align-items: flex-start;*/
 	justify-content: space-between;
 }
 .text1 {
@@ -197,7 +194,6 @@ input {
 	height: 1512px;
 	display: flex;
 	flex-direction: column;
-	/*overflow: hidden;*/
 }
 .box {
 	height: 504px;
@@ -231,7 +227,6 @@ input {
 	display: flex;
 	justify-content: flex-end;
 	flex-direction: column;
-	
 }
 .div2 {
 	height: 126px;
@@ -272,7 +267,6 @@ footer {
 	color: #fff;
 	display: flex;
 	justify-content: space-around;
-	/*align-items: end;*/
 }
 footer a:hover {
 	color: #FF00BF;
@@ -282,12 +276,7 @@ footer a:hover {
 	height: 345px;
 	display: flex;
 	align-items: center;
-	/*justify-content: flex-start;*/
 }
-/*.navFooter {
-	display: flex;
-	flex-direction: column;
-}*/
 .list {
 	width: 267px;
 	height: 241px;
@@ -318,25 +307,24 @@ footer li {
 	height: 212px;
 	width: 100%;
 	display: flex;
-	/*justify-content: flex-start;*/
 	align-items: center;
 	flex-direction: column;
 	background-color: #333447;
 	color: #fff;
 }
 #icons {
-	    width: 253px;
-    height: 71px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+	width: 253px;
+	height: 71px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
 }
 hr {
 	display: flex;
 	color: #fff;
 	background-color: #fff;
-	margin-top:10px;
+	margin-top: 10px;
 	width: 780px;
 	border-color: #fff;
 	text-decoration: none;
@@ -345,7 +333,7 @@ i.fa {
 	height: 15px;
 	width: 15px;
 	font-size: 18px;
-	border:1px #fff solid;
+	border: 1px #fff solid;
 	border-radius: 17px;
 	padding: 8px;
 	color: #fff;
